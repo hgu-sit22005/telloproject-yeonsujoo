@@ -1,12 +1,11 @@
 #pragma once
 #include "TelloPro.h"
 
-class Land: public TelloPro
+class Right: public TelloPro
 {
 public:
-	Land();
-	Land(int _value);
-	
+	Right();
+	Right(int _value);
 public:
 	double get_delay();
 };
